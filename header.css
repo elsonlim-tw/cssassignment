@@ -1,0 +1,22 @@
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding: 0 26px 0 26px;
+  align-items: center;
+  background-color: purple;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: orange;
+}
+
+a.active {
+  color: orange;
+}

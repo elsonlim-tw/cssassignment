@@ -1,0 +1,46 @@
+@import "header.css";
+
+.main-content {
+  display: block;
+}
+
+.main-content {
+  margin-top: 16px;
+}
+
+.main-content img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-content p {
+  text-align: center;
+}
+
+footer {
+  padding: 0 26px 0 26px;
+}
+
+footer p {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.cv-exp-content,
+.cv-edu-content {
+  padding: 0 26px 0 26px;
+}
+
+.cv-exp-content p,
+.cv-edu-content p,
+.cv-exp-content h2,
+.cv-edu-content h2 {
+  text-align: center;
+}
