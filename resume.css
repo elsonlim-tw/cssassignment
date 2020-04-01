@@ -9,10 +9,16 @@
     "experience education"
     "personal personal";
   grid-gap: 16px;
-  /* border: 1px solid black; */
+  /* border: 1px solid black; */ /* Don't commit commented code */
   margin: 16px;
   padding: 16px;
 }
+
+/* 
+  Currently there is this large big gap between the experience, skill, education, title's h2 element
+  This is cause by both the padding in the section and the margin in the h2, would be good to remove it.
+  i.e. `.resume section > h2 { margin: 0 }`
+ */
 
 .resume-title {
   grid-area: name;
@@ -30,6 +36,7 @@
   padding: 16px;
 }
 
+/* Don't commit commented code */
 /* .address address + address {
   margin: 16px;
 } */
